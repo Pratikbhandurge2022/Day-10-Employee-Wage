@@ -1,14 +1,21 @@
 ﻿using System;
 
-namespace assignment8_1
+namespace ConsoleApp1
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            EmployeeWage employeeWage = new EmployeeWage();
+            Class1 reliance = new Class1("TATA", 100, 200, 400);
+            reliance.computeEmpWage();
 
-            employeeWage.GetEmployeeWage("tata", 100, 200, 300);
+            Class1 Dmart = new Class1("TATA", 100, 200, 400);
+            Dmart.computeEmpWage();
+
+
+
         }
+
     }
 }
